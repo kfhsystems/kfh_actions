@@ -34,3 +34,5 @@ jobs:
         run: |
           ls -all
           df -Ph
+          echo "Where is my $RUNNER_WORKSPACE?"
+          echo $RUNNER_WORKSPACE
